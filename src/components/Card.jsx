@@ -1,4 +1,5 @@
 import Card from "react-bootstrap/Card"; 
+import Badge from 'react-bootstrap/Badge';
 
 const CardComponent = ({ url, title, subtitle, description }) => {
   const urn = "raw.githubusercontent.com/EniDev911/assets/main/svg/software/",
@@ -23,7 +24,7 @@ const CardComponent = ({ url, title, subtitle, description }) => {
   }
 
   return (
-    <Card className="App-card bg-dark m-auto">
+    <Card className="App-card bg-dark m-auto p-2">
       <a href={scheme+url+domain} target="_blank" rel="noreferrer noopener">
       <Card.Img variant="top" src={uri.concat(".svg")} className="App-card-img w-75 h-50 m-auto p-3"/>
       </a>

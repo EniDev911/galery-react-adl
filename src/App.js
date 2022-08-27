@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Header title="Software Galery" />
+      <Header title="Software Gallery" />
       <div className="App-galery">
         <Card
           url="keepassxc"
@@ -56,6 +56,12 @@ function App() {
           title="🗂️ Git"
           subtitle="Control de versiones"
           description="Distributed Architecture + OpenSource"
+        />
+        <Card
+          url="python"
+          title="🐍 Python"
+          subtitle="Intérprete de python"
+          description="General-purpose + OpenSource"
         />
       </div>
 
