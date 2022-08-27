@@ -1,5 +1,4 @@
 import Card from "react-bootstrap/Card"; 
-import Badge from 'react-bootstrap/Badge';
 
 const CardComponent = ({ url, title, subtitle, description }) => {
   const urn = "raw.githubusercontent.com/EniDev911/assets/main/svg/software/",
@@ -15,6 +14,9 @@ const CardComponent = ({ url, title, subtitle, description }) => {
       domain = ".com"
       break
     case "git-scm":
+      domain = ".com"
+      break
+    case "discord":
       domain = ".com"
       break
     case "audacity":

@@ -22,6 +22,12 @@ function App() {
           description="Waveform sound editor"
         />
         <Card
+          url="discord"
+          title="🎮 Discord"
+          subtitle="Aplicación de chat"
+          description="TeamSpeak + Gaming + OpenSource"
+        />
+        <Card
           url="nodejs"
           title="🚀 Nodejs"
           subtitle="Javascript runtime"
@@ -35,7 +41,7 @@ function App() {
         />
         <Card
           url="aseprite"
-          title="🎨 Aseprite"
+          title="👾 Aseprite"
           subtitle="Editor gráfico"
           description="Orientado a Pixel Art."
         />
@@ -63,8 +69,13 @@ function App() {
           subtitle="Intérprete de python"
           description="General-purpose + OpenSource"
         />
+        <Card
+          url="spyder-ide"
+          title="🕸️ Spyder"
+          subtitle="IDE de python"
+          description="Scientific Environment + OpenSource"
+        />
       </div>
-
       <Footer />
     </div>
   );
