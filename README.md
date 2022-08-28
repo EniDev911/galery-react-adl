@@ -1,6 +1,15 @@
-### `npm install`
+<p align="center">
+  <a href="https://open.vscode.dev/enidev911/galery-react-adl">
+	  <img alt="GitHub repo size" src="https://img.shields.io/badge/-Abrir%20en%20VsCode.dev-%23007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=ffffff" alt="Open in Visual Studio Code" height="35">
+  </a>
+	&nbsp;&nbsp;&nbsp;
+  <a href="https://enidev911.github.io/galery-react-adl">
+	  <img alt="GitHub" src="https://img.shields.io/badge/-Ver%20en%20GitHub%20Pages-%23000?style=for-the-badge&logo=github&logoColor=ffffff" height="35">
+  </a>
 
-Install project dependencies
+### INTRUCTIONS
+
+Install project dependencies with: `npm install`
 
 ```json
 "dependencies": {
@@ -16,9 +25,10 @@ Install project dependencies
 },
 ```
 
-### `npm start`
+Runs the app in the development mode with: `npm start`
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### screenshot
+
+![screenshot](public/screenshot.png)
