@@ -31,7 +31,7 @@ const CardComponent = ({ url, title, subtitle, description }) => {
   return (
     <Card className="App-card bg-dark m-auto p-2 h-100">
       <a href={scheme+url+domain} target="_blank" rel="noreferrer noopener">
-      <Card.Img variant="top" src={uri.concat(".svg")} className="App-card-img w-100 m-auto p-3"/>
+      <Card.Img variant="top" src={uri.concat(".svg")} className="App-card-img m-auto p-3"/>
       </a>
       <Card.Body className="text-light text-uppercase">
         <Card.Title>{title}</Card.Title>

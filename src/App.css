@@ -58,7 +58,7 @@
 
 
 @media (max-width: 780px) {
-  .App-galery {
+  .App-gallery {
     grid-template-columns: 1fr;
   }
 
@@ -69,7 +69,7 @@
 }
 
 @media (min-width: 780px) and (max-width: 1000px) {
-  .App-galery {
+  .App-gallery {
     grid-template-columns: 1fr 1fr;
     width: 90%;
   }
