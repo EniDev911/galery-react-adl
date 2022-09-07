@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header title="Software Gallery" />
-      <div className="App-galery">
+      <div className="App-gallery">
         <Card
           url="keepassxc"
           title="🔑 Keepass XC"
@@ -27,12 +27,7 @@ function App() {
           subtitle="Aplicación de chat"
           description="TeamSpeak + Gaming + OpenSource"
         />
-        <Card
-          url="nodejs"
-          title="🚀 Nodejs"
-          subtitle="Javascript runtime"
-          description="Open-source, cross-platform, back-end"
-        />
+
         <Card
           url="inkscape"
           title="🗻 Inkscape"
@@ -45,6 +40,22 @@ function App() {
           subtitle="Editor gráfico"
           description="Orientado a Pixel Art."
         />
+      </div>
+      {/* Programming software */}
+      <Header title="Programming Software" />
+      <div className="App-gallery">
+        <Card
+          url="code.visualstudio"
+          title="✏️ Visual Studio Code"
+          subtitle="Editor de código"
+          description="WSL Remote + Others"
+        />
+        <Card
+          url="sublimetext"
+          title="✏️ Sublime Text"
+          subtitle="Editor de código"
+          description="Cross-platform + Lightweight"
+        />
         <Card
           url="vitejs"
           title="📦 ViteJS"
@@ -52,10 +63,10 @@ function App() {
           description="CLI rápido, ESM compatibles"
         />
         <Card
-          url="code.visualstudio"
-          title="✏️ Visual Studio Code"
-          subtitle="Editor de código"
-          description="WSL Remote + Others"
+          url="nodejs"
+          title="🚀 Nodejs"
+          subtitle="Javascript runtime"
+          description="Open-source, cross-platform, back-end"
         />
         <Card
           url="git-scm"
@@ -74,6 +85,30 @@ function App() {
           title="🕸️ Spyder"
           subtitle="IDE de python"
           description="Scientific Environment + OpenSource"
+        />
+        <Card
+          url="mysql"
+          title="🐬 MySQL"
+          subtitle="RDBMS Oracle-backend"
+          description="Relational database management system"
+        />
+        <Card
+          url="mariadb"
+          title="🦭 MariaDB"
+          subtitle="RDBMS open source"
+          description="Relational database management system"
+        />
+        <Card
+          url="postgresql"
+          title="🐘 PostgreSQL"
+          subtitle="ORDBMS"
+          description="Object oriented database model + OpenSource"
+        />
+        <Card
+          url="mongodb"
+          title="🍃 MongoDB"
+          subtitle="Classified NoSQL"
+          description="Document-oriented database + cross-platform"
         />
       </div>
       <Footer />
