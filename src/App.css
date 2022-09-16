@@ -55,7 +55,9 @@
   padding: 10px 0;
 }
 
-
+a {
+  cursor: unset;
+}
 
 @media (max-width: 780px) {
   .App-gallery {
@@ -84,5 +86,6 @@
     transform: scale(1.3);
     box-shadow: 2px solid #ccc;
     filter: drop-shadow(-3px 0 8px var(--card-hover-shadow));
+    cursor: pointer;
   }
 }
